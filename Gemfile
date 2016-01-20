@@ -8,6 +8,7 @@ gem 'bcrypt',               '3.1.7'
 
 group :production do
   gem 'pg'
+  gem 'puma', '2.11.1'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
